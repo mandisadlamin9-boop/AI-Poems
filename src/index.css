@@ -1,5 +1,20 @@
 body {
   background: linear-gradient(145deg, hsl(220 25% 95%), hsl(15 30% 95%));
+  padding: 20px 50px;
+  max-width: 620px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.85);
+  max-width: 620px;
+  margin: 50px auto;
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.04),
+    0 20px 60px rgba(65, 50, 100, 0.06);
+  border-radius: 20px;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: hsl(255, 4%, 39%);
 }
 .search-form-input {
   flex: 1;
@@ -14,6 +29,12 @@ body {
   color: hsl(260, 30%, 20%);
   transition: all 0.25s ease;
   outline: none;
+}
+.display {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: hsl(255, 4%, 40%);
+  margin-top: 30px;
 }
 .search-form-input::placeholder {
   color: hsl(260, 10%, 62%);
