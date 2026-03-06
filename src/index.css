@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(145deg, hsl(220 25% 95%), hsl(15 30% 95%));
+}
+.search-form-input {
+  flex: 1;
+  padding: 14px 22px;
+  font-size: 15px;
+  width: 75%;
+  border-radius: 14px;
+  border: 2px solid rgb(175, 175, 175);
+  background: hsl(220, 20%, 96%);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: hsl(260, 30%, 20%);
+  transition: all 0.25s ease;
+  outline: none;
+}
+.search-form-input::placeholder {
+  color: hsl(260, 10%, 62%);
+}
+
+.search-form-button {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 14px;
+  background: blueviolet;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+footer {
+  padding: 20px 0 0 0;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: hsl(260, 10%, 55%);
+  letter-spacing: 0.2px;
+}
+a {
+  color: hsl(260, 10%, 55%);
+  text-decoration: none;
+}
