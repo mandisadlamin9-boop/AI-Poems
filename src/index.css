@@ -20,6 +20,12 @@ h1 {
     0 20px 60px rgba(65, 50, 100, 0.06);
   border-radius: 18px;
 }
+.hint {
+  font-size: 12px;
+  margin-top: 9px;
+  opacity: 0.4;
+}
+
 .display-card {
   text-align: center;
   padding: 10px 20px 20px 50px;
@@ -32,6 +38,9 @@ h1 {
     0 4px 24px rgba(0, 0, 0, 0.04),
     0 20px 60px rgba(65, 50, 100, 0.06);
   border-radius: 18px;
+}
+.hidden {
+  display: none;
 }
 .display-card strong {
   color: #885df1;
@@ -83,4 +92,18 @@ footer {
 a {
   color: hsl(260, 10%, 55%);
   text-decoration: none;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
