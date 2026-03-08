@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   background-size: 300% 300%;
   animation: bgShift 12s ease infinite;
-  padding: 40px 20px;
+  padding: 20px 20px;
   color: #4a2040;
   overflow-x: hidden;
 }
